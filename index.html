@@ -52,16 +52,16 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-                <li data-access-level="accessLevels.user" active-nav="" ng-cloak=""><a href="/player">Player</a></li>
-                <li data-access-level="accessLevels.public" active-nav=""><a href="/about">About</a></li>
+                <li data-access-level="accessLevels.user" active-nav="" ng-cloak=""><a href="player">Player</a></li>
+                <li data-access-level="accessLevels.public" active-nav=""><a href="about">About</a></li>
                 <li data-access-level="accessLevels.user">
                     <audio controls="" autoplay="" ng-src="{{ currentTrack.src }}" ng-cloak="">Track</audio>
                     <span class="badge" ng-cloak="">{{ currentTrack.artist }} - {{ currentTrack.track}}</span>
                 </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li data-access-level="accessLevels.anon" active-nav=""><a href="/login">Login</a></li>
-                <li data-access-level="accessLevels.user" active-nav=""><a href="/profile">{{ user.login }}</a></li>
+                <li data-access-level="accessLevels.anon" active-nav=""><a href="login">Login</a></li>
+                <li data-access-level="accessLevels.user" active-nav=""><a href="profile">{{ user.login }}</a></li>
                 <li data-access-level="accessLevels.user" active-nav=""><a href="" ng-click="logout()">Logout</a></li>
             </ul>
         </div>
