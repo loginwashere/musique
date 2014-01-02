@@ -1,0 +1,25 @@
+{
+  "name": "musique-backend",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js",
+    "postinstall": "echo postinstall time; cd ./client; npm install; ../node_modules/grunt-cli/bin/grunt build"
+  },
+  "dependencies": {
+    "express": "3.4.7",
+    "jade": "*",
+    "socket.io": "~0.9.16",
+    "request": "~2.30.0",
+    "q": "~0.9.7",
+    "passport": "~0.1.17",
+    "passport-local": "~0.1.6",
+    "underscore": "~1.5.2",
+    "validator": "~1.1.1",
+    "passport-twitter": "~0.1.4",
+    "passport-facebook": "~0.1.5",
+    "passport-google": "~0.3.0",
+    "passport-linkedin": "~0.1.3",
+    "newrelic": "~1.2.0"
+  }
+}
